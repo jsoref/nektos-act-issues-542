@@ -1,0 +1,10 @@
+name: workflow 2
+
+on:
+  push:
+    branches:
+      -  develop
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
